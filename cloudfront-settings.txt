@@ -1,0 +1,9 @@
+CloudFront Configuration Summary:
+
+- Origin: S3 bucket (private)
+- Origin Access: OAI (Origin Access Identity) enabled
+- Viewer Protocol Policy: Redirect HTTP to HTTPS
+- SSL: Custom SSL certificate from AWS Certificate Manager (ACM)
+- Logging: Enabled, sent to separate logging bucket
+- Error Pages: Custom 404 and 403 pages (optional)
+- Caching: Enabled with long TTL for static files
